@@ -1,0 +1,183 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: #F6F6F6;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #F6F6F6;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+main {
+  padding: 12px;
+}
+
+footer {
+  background-color: #1B1F24;
+  padding: 12px;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #666666;
+}
+
+nav,
+aside {
+  flex-basis: 200px;
+  flex-shrink: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1B1F24;
+  color: #F6F6F6;
+}
+
+.header__logo {
+  display: flex;
+  margin: 8 0 8 40px;
+  padding: 10px;
+}
+
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.header__nav__item {
+  border-radius: 4px;
+  height: 42px;
+  width: 120px;
+  line-height: 42px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header__nav__item:hover {
+  background-color: #31363D;
+}
+
+
+.header__button {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.header__button__item {
+  border-radius: 30px;
+  height: 42px;
+  width: 100px;
+  font-size: 78%;
+  line-height: 42px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header__hamburger {
+  display: none;
+  position: absolute;
+  right: 16px;
+  padding: 14px;
+  stroke: #d6d6d6;
+}
+
+.header__hamburger:hover {
+  transition: all 0.5s;
+  stroke: #fff; 
+}
+
+#light {
+  background-color: #31363D;
+  border: 1px solid #23272D;
+}
+
+#dark {
+  border: 1px solid #F6F6F6;
+}
+
+.wrap-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrap-content nav {
+  border-right: 1px solid #d0d0d0;
+}
+
+.wrap-content aside {
+  border-left: 1px solid #d0d0d0;
+}
+
+
+/*미디어 쿼리*/
+
+@media screen and (max-width:768px) {
+  .wrap__header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header__logo {
+    margin: 0 0 0 16px;
+  }
+
+  .header__nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header__nav__item {
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+  }
+
+  .header__hamburger {
+    display: block;
+  }
+
+  .header__button {
+    display: none;
+    margin: 10 0px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .header__nav.active,
+  .header__button.active {
+    display: flex;
+  }
+
+}
