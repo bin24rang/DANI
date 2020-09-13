@@ -1,6 +1,5 @@
-const toggleBtn = document.querySelector('.header__hamburger');
-const nav = document.querySelector('.header__nav');
-const button = document.querySelector('.header__button');
+const toggleBtn = document.querySelector('.header__button');
+const nav = document.querySelector('.nav__layer');
 
 toggleBtn.addEventListener('click', () => {
     nav.classList.toggle('active');
