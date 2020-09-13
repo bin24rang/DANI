@@ -1,0 +1,394 @@
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="base.css" as="style">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <script src="main.js" defer></script>
+  <title>용한 집</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header__wrapper">
+
+        <nav class="header__nav">
+          <ul class="header__nav__list">
+            <li class="header__nav__item"><a href="">신점</a></li>
+            <li class="header__nav__item"><a href="">철학관</a></li>
+            <li class="header__nav__item"><a href="">타로</a></li>
+            <li class="header__nav__item"><a href="">사주카페</a></li>
+          </ul>
+        </nav>
+
+
+        <div class="nav__layer">
+          <nav class="nav__layer__wrapper">
+            <ul class="nav__layer__list">
+              <li class="nav__layer__item">
+                <a href="" class="nav__layer__item-link">
+                  <span class="nav__layer__item-text">신점</span>
+                </a>
+              </li>
+              <li class="nav__layer__item">
+                <a href="" class="nav__layer__item-link">
+                  <span class="nav__layer__item-text">철학관</span>
+                </a>
+              </li>
+              <li class="nav__layer__item">
+                <a href="" class="nav__layer__item-link">
+                  <span class="nav__layer__item-text">타로</span>
+                </a>
+              </li>
+              <li class="nav__layer__item">
+                <a href="" class="nav__layer__item-link">
+                  <span class="nav__layer__item-text">사주카페</span>
+                </a>
+              </li>
+              <li class="nav__layer__item">
+                <a href="" class="nav__layer__item-link" id="link__signin">
+                  <span class="nav__layer__item-text">로그인</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <a class="header__logo" href="index.html">
+          <img src="assets/logo.png" alt="logo" />
+        </a>
+
+        <div class="header__signin">
+          <a class="header__signin__button"> 
+            <span>로그인</span>
+          </a>
+        </div>
+
+        <div class="header__button">
+          <a id="button__menu" href="#">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 6H28M4 16.1258H28M4 25.8621H28" stroke="#666666" stroke-linecap="round" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </header>
+
+    <div id="slider__wrapper">
+      <div class="slider__banner__list">
+        <div class="slider__banner__item">
+          <img src="assets/banner1.png" />
+        </div>
+      </div>
+    </div>
+
+
+    <div class="section__wrapper" id=main-hot>
+      <section class="card__wrapper">
+        <h2>지금 뜨는 용한집</h2>
+        <div class="card__list">
+          <div class="card__list__half">
+            <div class="card__item left__card">
+              <a href="" class="info__wrapper">
+                <div class="info__img">
+                  <div class="img_scale"><img src="assets/yj1.png" /></div>
+                </div>
+                <div class="info__text">
+                  <div class="info__text-type">
+                    <span>철학관</span>
+                    <span>부산 동래구</span>
+                  </div>
+                  <h4 class="info__text-name">
+                    <span>현운역리원작명연구소</span>
+                  </h4>
+                  <div class="info__text-specialty">
+                    <span>작명</span>
+                    <span>사업</span>
+                    <span>재물</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card__item right__card">
+              <a href="" class="info__wrapper">
+                <div class="info__img">
+                  <div class="img_scale"><img src="assets/yj2.png" /></div>
+                </div>
+                <div class="info__text">
+                  <div class="info__text-type">
+                    <span>철학관</span>
+                    <span>서울 동작구</span>
+                  </div>
+                  <h4 class="info__text-name">
+                    <span>나이스사주명리</span>
+                  </h4>
+                  <div class="info__text-specialty">
+                    <span>사주풀이</span>
+                    <span>사업</span>
+                    <span>재물</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card__list__half">
+            <div class="card__item left__card">
+              <a href="" class="info__wrapper">
+                <div class="info__img">
+                  <div class="img_scale"><img src="assets/yj3.png" /></div>
+                </div>
+                <div class="info__text">
+                  <div class="info__text-type">
+                    <span>점집</span>
+                    <span>온라인</span>
+                  </div>
+                  <h4 class="info__text-name">
+                    <span>용궁대신</span>
+                  </h4>
+                  <div class="info__text-specialty">
+                    <span>사주풀이</span>
+                    <span>전통사주</span>
+                    <span>팔자</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card__item right__card">
+              <a href="" class="info__wrapper">
+                <div class="info__img">
+                  <div class="img_scale"><img src="assets/yj4.png" /></div>
+                </div>
+                <div class="info__text">
+                  <div class="info__text-type">
+                    <span>점집</span>
+                    <span>경기 성남시</span>
+                  </div>
+                  <h4 class="info__text-name">
+                    <span>청운</span>
+                  </h4>
+                  <div class="info__text-specialty">
+                    <span>진로</span>
+                    <span>적성</span>
+                    <span>취업</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="section__wrapper" id=main-new>
+      <section class="card__wrapper">
+        <h2>새로 등록된 용한집</h2>
+        <div class="card__list">
+          <div class="card__list__half">
+            <div class="card__item left__card">
+              <a href="" class="info__wrapper">
+                <div class="info__img">
+                  <div class="img_scale"><img src="assets/yj5.png" /></div>
+                </div>
+                <div class="info__text">
+                  <div class="info__text-type">
+                    <span>사주카페</span>
+                    <span>서울 노원구</span>
+                  </div>
+                  <h4 class="info__text-name">
+                    <span>Petit 사주카페</span>
+                  </h4>
+                  <div class="info__text-specialty">
+                    <span>사주풀이</span>
+                    <span>연애</span>
+                    <span>힐링</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card__item right__card">
+              <a href="" class="info__wrapper">
+                <div class="info__img">
+                  <div class="img_scale"><svg xmlns="http://www.w3.org/2000/svg" width="300" height="156" viewBox="0 0 300 156" fill="none">
+                    <rect width="300" height="156" fill="#D6D6D6" />
+                    <path opacity="0.75" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M172.904 125.12C164.116 123.719 162.502 120.872 162.404 118.205V112.716C169.52 108.83 174.655 101.644 175.957 93.1357C180.194 92.3573 181.491 85.8752 181.491 85.8752C182.473 83.8068 182.147 76.4035 179.529 75.7183C178.527 75.4536 177.368 75.8958 176.307 76.5374V68.204C176.307 54.884 166.921 43.8565 154.612 41.7057C146.325 38.4622 140.842 32 140.842 32C125.667 48.1709 123.757 60.7403 124.199 67.4395C124.19 67.6934 124.159 67.9452 124.159 68.204V76.4719C123.133 75.8641 122.018 75.4615 121.059 75.7183C118.44 76.4025 118.115 83.8068 119.094 85.8752C119.094 85.8752 120.366 92.2343 124.505 93.1158C125.698 100.941 130.141 107.646 136.385 111.694C136.907 112.158 137.335 112.726 137.644 113.366C137.952 114.007 138.135 114.705 138.181 115.421V117.948C138.172 120.687 136.73 123.677 127.577 125.086C111.648 128.104 90 132.399 90 156C108.214 156 129.643 156 150 156C170.357 156 198.214 156 210 156C210 132.399 188.258 127.919 172.904 125.12Z"
+                      fill="white" />
+                  </svg></div>
+                </div>
+                <div class="info__text">
+                  <div class="info__text-type">
+                    <span>타로</span>
+                    <span>서울 종로구</span>
+                  </div>
+                  <h4 class="info__text-name">
+                    <span>공간공감</span>
+                  </h4>
+                  <div class="info__text-specialty">
+                    <span>타로</span>
+                    <span>운명</span>
+                    <span>연애</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card__list__half">
+            <div class="card__item left__card">
+              <a href="" class="info__wrapper">
+                <div class="info__img">
+                  <div class="img_scale"><img src="assets/yj6.png" /></div>
+                </div>
+                <div class="info__text">
+                  <div class="info__text-type">
+                    <span>점집</span>
+                    <span>온라인</span>
+                  </div>
+                  <h4 class="info__text-name">
+                    <span>용궁대신</span>
+                  </h4>
+                  <div class="info__text-specialty">
+                    <span>사주풀이</span>
+                    <span>전통사주</span>
+                    <span>팔자</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card__item right__card">
+              <a href="" class="info__wrapper">
+                <div class="info__img">
+                  <div class="img_scale"><svg xmlns="http://www.w3.org/2000/svg" width="300" height="156" viewBox="0 0 300 156" fill="none">
+                    <rect width="300" height="156" fill="#D6D6D6" />
+                    <path opacity="0.75" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M172.904 125.12C164.116 123.719 162.502 120.872 162.404 118.205V112.716C169.52 108.83 174.655 101.644 175.957 93.1357C180.194 92.3573 181.491 85.8752 181.491 85.8752C182.473 83.8068 182.147 76.4035 179.529 75.7183C178.527 75.4536 177.368 75.8958 176.307 76.5374V68.204C176.307 54.884 166.921 43.8565 154.612 41.7057C146.325 38.4622 140.842 32 140.842 32C125.667 48.1709 123.757 60.7403 124.199 67.4395C124.19 67.6934 124.159 67.9452 124.159 68.204V76.4719C123.133 75.8641 122.018 75.4615 121.059 75.7183C118.44 76.4025 118.115 83.8068 119.094 85.8752C119.094 85.8752 120.366 92.2343 124.505 93.1158C125.698 100.941 130.141 107.646 136.385 111.694C136.907 112.158 137.335 112.726 137.644 113.366C137.952 114.007 138.135 114.705 138.181 115.421V117.948C138.172 120.687 136.73 123.677 127.577 125.086C111.648 128.104 90 132.399 90 156C108.214 156 129.643 156 150 156C170.357 156 198.214 156 210 156C210 132.399 188.258 127.919 172.904 125.12Z"
+                      fill="white" />
+                  </svg>
+                </div>
+                <div class="info__text">
+                  <div class="info__text-type">
+                    <span>점집</span>
+                    <span>경기 성남시</span>
+                  </div>
+                  <h4 class="info__text-name">
+                    <span>청운</span>
+                  </h4>
+                  <div class="info__text-specialty">
+                    <span>진로</span>
+                    <span>적성</span>
+                    <span>취업</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="section__wrapper" id="main-megazine">
+      <section class="card__wrapper">
+        <div class="megazine__title__wrapper">
+          <h2>용한집이 알려주는 꿀팁</h2>
+          <h6>용한집 에디터가 발품팔아 얻은 꿀팁을 만나보세요!</h6>
+        </div>
+        <div class="megazine__contents__wrapper">
+          <div class="megazine__contents__hotitem">
+            <a class="megazine__contents__hotitem-inner info__img" href="">
+              <img class="img_scale" src="assets/mgz1.png" />
+              <h2>
+                사주명리학의 3요소, 명·상·복의 기본에 충실한 이론으로 사람의 운명을 읽다
+              </h2>
+              <p>
+                제갈공명을 비롯한 유능한 책사들이 상대 수장의 운명을 파악해 전술전법에 활용하기도 한 사주팔자는 현재 운명과 관상을 진단하는 일종의 통계학이 되었다. 또한 도교와 맥을 같이 하며 천문과
+                지질,
+                생물과 인류학의 결집이라 할 수 있는 자연학으로, 바람, 구름, 비, 벼락을 관찰하며 자연에 인간의 삶을 대입한 분야 중 인상적인 것이 바로 관상의 마지막 단계인 물형론이다. 사주와
+                주역을
+                비롯해 일반인들에게 친숙한 분야인 관상과 물형론에 입체적으로 접근하는 자운영철학관 자운영 원장은 얼굴상 뿐 아니라 체형과 전반적인 기운으로 성품과 운명을 읽어내며 대중들에게 큰 호응을
+                얻고
+                있다. 재물과 사업, 결혼과 취업은 물론 작명 분야까지 종횡무진 활약하는 모범역술인, 자운영 원장의 역술에 대한 철학과 인생관에 대해 들어 보았다.
+              </p>
+            </a>
+          </div>
+          <div class="megazine__contents__item">
+            <a class="megazine__contents__item-inner" href="">
+              <div class="megazine__contents__item-inner-text">
+                <h4>
+                  과거 현자들의 지식과 폭넓은 경험을 바탕으로 현대인에 맞는 통합적 상담 필요
+                </h4>
+                <p>
+                  수십 년 간 사주를 보는 학식 높은 철학자들은 같은 사주도 부모 사주의 영향을 받아 달라진다는 천차만별의 변수에 따른 딜레마를 꾸준한 학문으로 극복한다고 하는데, 자운영 원장
+                  또한 관상만 해도 2대 상전에 속하는 마의상법, 상리형전을 비롯한 많은 저서들을 연구하고 있으며 남의 사주를 잘 보려면 ‘명·상·복’으로 불리는 3가지 요소를 제대로 해야 한다고
+                  강조한다. 그래서 자운영 원장은 명리(命理)혹은 사주(四柱), 관상(觀相), 그리고 사주명리학의 교본이자 오행십간을 보는 적천수(適天髓)와 함께 육효점학의 기본인 복서정종(卜筮正宗)
+                  등을 깊이 있게 연구하고 있다. 또한 작명은 운명을 절대적으로 결정하기보다는 보완을 하는 쪽이며, 살면서 평생 불리는 동안 좋은 기운을 전해주는 글자의 조합이 이상적이라고 한다.
+                  기운이 겨울에 몰리면 봄과 여름을 더해주는 개명이나 이름을 긍정적으로 바꾸어 ‘바이오리듬’처럼 사람의 에너지를 개선하는 방법도 좋다. 이렇게 현대인의 정서에 맞춤식 조언을 하는 자운영
+                  원장은 종교를 초월해 관상과 사주를 문의하는 분들에게, 앞으로 한 번의 인연도 소중히 여기며 스스로도 보람되게 느낄 상담에 더욱 최선을 다하겠다고 전했다.
+                </p>
+              </div>
+              <div class="info__img">
+                <img class="img_scale" src="assets/mgz2.png" />
+              </div>
+            </a>
+            <a class="megazine__contents__item-inner" href="">
+              <div class="megazine__contents__item-inner-text">
+                <h4>
+                  과거 현자들의 지식과 폭넓은 경험을 바탕으로 현대인에 맞는 통합적 상담 필요
+                </h4>
+                <p>
+                  수십 년 간 사주를 보는 학식 높은 철학자들은 같은 사주도 부모 사주의 영향을 받아 달라진다는 천차만별의 변수에 따른 딜레마를 꾸준한 학문으로 극복한다고 하는데, 자운영 원장
+                  또한 관상만 해도 2대 상전에 속하는 마의상법, 상리형전을 비롯한 많은 저서들을 연구하고 있으며 남의 사주를 잘 보려면 ‘명·상·복’으로 불리는 3가지 요소를 제대로 해야 한다고
+                  강조한다. 그래서 자운영 원장은 명리(命理)혹은 사주(四柱), 관상(觀相), 그리고 사주명리학의 교본이자 오행십간을 보는 적천수(適天髓)와 함께 육효점학의 기본인 복서정종(卜筮正宗)
+                  등을 깊이 있게 연구하고 있다. 또한 작명은 운명을 절대적으로 결정하기보다는 보완을 하는 쪽이며, 살면서 평생 불리는 동안 좋은 기운을 전해주는 글자의 조합이 이상적이라고 한다.
+                  기운이 겨울에 몰리면 봄과 여름을 더해주는 개명이나 이름을 긍정적으로 바꾸어 ‘바이오리듬’처럼 사람의 에너지를 개선하는 방법도 좋다. 이렇게 현대인의 정서에 맞춤식 조언을 하는 자운영
+                  원장은 종교를 초월해 관상과 사주를 문의하는 분들에게, 앞으로 한 번의 인연도 소중히 여기며 스스로도 보람되게 느낄 상담에 더욱 최선을 다하겠다고 전했다.
+                </p>
+              </div>
+              <div class="info__img">
+                <img class="img_scale" src="assets/mgz3.png" />
+              </div>
+            </a>
+            <a class="megazine__contents__item-inner" href="">
+              <div class="megazine__contents__item-inner-text">
+                <h4>
+                  11번째 타로 카드 해석/풀이 - Justice(정의) 카드란?
+                </h4>
+                <p>
+                  실전 경력과 적중률까지 탁월한 안덕심 선생님께서는 육효, 자미두수 등 다양한 점술학의 전문가이신 자타공인 '타로 대가'입니다. 희소가치 높은 안덕심 선생님만의 해석법으로 상담자의 마음을 사로잡는 비법을 터득하실 수 있습니다.
+                </p>
+              </div>
+              <div class="info__img">
+                <img class="img_scale" src="assets/mgz4.png" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="footer__wrapper">
+        <div class="footer__info">
+          <div class="footer__info__title">
+            <span>ABOUT</span>
+            <span>CONTACT</span>
+            <span>COPYRIGHT</span>
+          </div>
+          <div class="footer__info__contents">
+            <span>이수경 ｜ 서비스기획자 </span>
+            <span>bin24rang@naver.com ｜ 010-2206-5353</span>
+            <span>Copyright 2020 Dani. All rights reserved.</span>
+          </div>
+        </div>
+        <div class="footer__logo">
+          <img src="assets/logo_s.png" alt="logo" />
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</body>
+
+</html>
